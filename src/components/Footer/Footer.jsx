@@ -26,7 +26,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                  href={url || 'https://github.com/lucianoojeda36/gatsby-portfolio'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -39,8 +39,8 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+          <a href="https://github.com/lucianoojeda36" target="_blank" rel="noopener noreferrer">
+            Lucaino Ojeda
           </a>
         </p>
 
