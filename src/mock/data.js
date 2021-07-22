@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'foto maletin.jpg',
   paragraphOne:
     'Full Stack Developer and Civil Engineer. Passionate about algorithms and data structures, problem solving and optimization.',
   paragraphTwo:
