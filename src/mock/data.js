@@ -40,6 +40,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'Movies.jpg',
+    title: 'Movies Plataform',
+    info: 'Project about a Movies platform.',
+    info2: 'Carried out using React js',
+    url: 'https://movies-api-eight-nu.vercel.app/',
+    repo: 'https://github.com/lucianoojeda36/Movies-Api', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'Netflix-clon.jpg',
     title: 'Netflix-clon',
     info: 'Project about a Movies platform, based on Netflix.',
