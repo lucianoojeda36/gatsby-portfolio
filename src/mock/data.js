@@ -75,6 +75,15 @@ export const projectsData = [
     url: 'https://gestor-precios.vercel.app/',
     repo: 'https://github.com/lucianoojeda36/gestor-precios', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'cookBook2.jpg',
+    title: 'Cook Book Mobile App',
+    info: 'project based on an app that compiles different cooking recipes.',
+    info2: 'Carried out using React-native ',
+    url: 'https://gestor-precios.vercel.app/',
+    repo: 'https://github.com/lucianoojeda36/gestor-precios', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA

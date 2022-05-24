@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import '../../style/imagen.scss';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -29,6 +30,7 @@ const Projects = () => {
           <Title title="Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
+            console.log('===========>', img);
 
             return (
               <Row key={id}>
@@ -99,7 +101,14 @@ const Projects = () => {
                             easing: 'cubic-bezier(.03,.98,.52,.99)',
                           }}
                         >
-                          <div data-tilt className="thumbnail rounded">
+                          <div
+                            data-tilt
+                            className={
+                              img === 'cookBook2.jpg'
+                                ? 'thumbnail rounded imageWrapper'
+                                : 'thumbnail rounded'
+                            }
+                          >
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>
