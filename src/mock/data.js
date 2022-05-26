@@ -30,6 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'cookBook2.jpg',
+    title: 'Cook Book Mobile App',
+    info: 'project based on an app that compiles different cooking recipes.',
+    info2:
+      'Carried out using React-native and conected with Apolo-client in the front.In the back was built with Node.js in typescript and express-graphql.',
+    url: 'https://github.com/lucianoojeda36/Book_cook_App',
+    repo: 'https://github.com/lucianoojeda36/Book_cook_App', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ecommerce.jpg',
     title: 'Ecommerce Deliviry Restaurant',
     info: 'Project about a food deliviry ecommerce based on the rappi platform.',
@@ -72,15 +82,6 @@ export const projectsData = [
     title: 'Gestor de Precios',
     info: 'project based on a price manager for a business,through an excel template.',
     info2: 'Carried out using ReactJS ',
-    url: 'https://gestor-precios.vercel.app/',
-    repo: 'https://github.com/lucianoojeda36/gestor-precios', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'cookBook2.jpg',
-    title: 'Cook Book Mobile App',
-    info: 'project based on an app that compiles different cooking recipes.',
-    info2: 'Carried out using React-native ',
     url: 'https://gestor-precios.vercel.app/',
     repo: 'https://github.com/lucianoojeda36/gestor-precios', // if no repo, the button will not show up
   },
