@@ -40,6 +40,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'greenGrocery.jpg',
+    title: 'Green Grocery Mobile App',
+    info: 'project based on an app that simulate a Green grocery Ecommerce.',
+    info2:
+      'Carried out using Flutter and conected with Graphql in the front.In the back was built with Node.js in typescript and express-graphql.',
+    url: 'https://github.com/lucianoojeda36/green_grocery_mobile_app',
+    repo: 'https://github.com/lucianoojeda36/green_grocery_mobile_app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ecommerce.jpg',
     title: 'Ecommerce Deliviry Restaurant',
     info: 'Project about a food deliviry ecommerce based on the rappi platform.',

@@ -104,7 +104,7 @@ const Projects = () => {
                           <div
                             data-tilt
                             className={
-                              img === 'cookBook2.jpg'
+                              img === 'cookBook2.jpg' || img === 'greenGrocery.jpg'
                                 ? 'thumbnail rounded imageWrapper'
                                 : 'thumbnail rounded'
                             }
